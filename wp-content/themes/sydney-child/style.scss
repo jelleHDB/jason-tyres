@@ -1,0 +1,246 @@
+/*
+ Theme Name:   Helemaal de bom theme
+ Theme URI:    https://www.helemaaldebom.nl/
+ Description:  Helemaal de bom child theme
+ Author:       Bas Romeijn
+ Author URI:   https://www.helemaaldebom.nl/
+ Template:     sydney
+ Version:      1.0.0
+ Tags:         plaats, hier, jouw, tags, gescheiden, door, kommas
+ Text Domain:  sydney-child
+*/
+
+/* =Eigen CSS hier beneden plaatsen
+-------------------------------------------------------------- */
+
+$mainColor : #D20115;
+$mainFont : 'Montserrat', sans-serif;
+
+#breedte-page {
+    max-width: 1400px; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider-costum h2{
+    margin: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-family: $mainFont;
+}
+
+.slider-costum-inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+
+.slider-costum {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tekst_link-slider-costum_1 {
+    color: white;
+    font-family: $mainFont;
+    background: $mainColor;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid $mainColor;
+}
+
+.tekst_link-slider-costum_1:hover {
+    background: transparent;
+    color: $mainColor;
+}
+
+.tekst_link-slider-costum_2 {
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+    color: white;
+    font-family: $mainFont;
+    font-weight: bold;
+}
+
+.tekst_link-slider-costum_2:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+@media only screen and (min-width: 992px)  {
+    .slider-costum-inner {
+        padding: 215px 30px 300px;
+    }
+
+    .slider-costum h2 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .titel-slider-costum_2 {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 600px)  {
+    .slider-costum-inner {
+        padding: 140px 30px 220px;
+    }
+
+    .slider-costum h2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .titel-slider-costum_2 {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 599px)  {
+    .slider-costum-inner {
+        padding: 120px 30px 200px;
+    }
+
+    .slider-costum h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .titel-slider-costum_2 {
+        margin-bottom: 40px !important;
+    }
+
+    .tekst_link-slider-costum_1 {
+        font-size: 16px !important;
+    }
+}
+
+.homepage-whole {
+    background-image: url("http://localhost/jason-tyres/wp-content/uploads/2023/09/bandenspoor.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.home-usp-inhoud {
+    display: flex;
+    gap: 1%;
+    position: relative;
+    bottom: 100px;
+    padding: 0px 30px;
+}
+
+.home-usp {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 22px #acadab82;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background:white;
+    justify-content: flex-start;
+}
+
+.home-usp img {
+    height: 100px;
+}
+
+.home-usp h2 {
+    color: $mainColor;
+    font-family: $mainFont;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 100px)  {
+    .home-usp-inhoud {
+        flex-direction: column;
+    }
+
+    .home-usp {
+        margin-bottom: 40px;
+    }
+}
+
+.home-overons-inner {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.home-overons {
+    padding: 0px 30px;
+    margin: 100px 0px;
+}
+
+.home-overons-c1, .home-overons-c2 {
+    flex: 100%;
+}
+
+.afbeelding-overons-home {
+    border-radius: 50% 0% 50% 50%;
+    object-fit: cover;
+    box-shadow: 0 0 22px rgb(61 61 61 / 51%);
+}
+
+.titel-overons-home_1 {
+    color: $mainColor;
+    font-family: $mainFont;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.titel-overons-home_2 {
+    font-family: $mainFont;
+}
+
+.informatie-overons-home {
+    max-width: 80%;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.link-overons-home_1 {
+    color: $mainColor;
+    font-family: $mainFont;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid $mainColor;
+    font-weight: 500;
+}
+
+.link-overons-home_1:hover {
+    background: $mainColor;
+    color: white;
+}
+
+.link-overons-home_2 {
+    position: relative;
+    left: 30px;
+    color: black;
+    font-family: $mainFont;
+    font-weight: 500;
+}
+
+.link-overons-home_2:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 100px)  {
+    .home-overons-inner {
+        flex-direction: column;
+    }
+
+    .informatie-overons-home {
+        max-width: 100% !important;
+    }
+
+    .home-overons-c1 {
+        margin-bottom: 80px;
+    }
+}
