@@ -85,4 +85,4 @@ $link_slider2 = get_field('link-slider-costum_2', 'options');
 
 	<?php do_action('sydney_after_hero'); ?>
 
-	<div id="breedte-page">
+	

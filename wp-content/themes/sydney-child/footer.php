@@ -7,9 +7,7 @@
  * @package Sydney
  */
 ?>
-			</div>
-		</div>
-	</div><!-- #content -->
+
 
 	<?php do_action('sydney_before_footer'); ?>
 
